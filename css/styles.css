@@ -1,3 +1,53 @@
-.main-header {
-    font-size: 20px;
+:root {
+    --font-color:#212121;
+    --font-color-secondary:#757575;
+    --highlighted-element: #2196F3;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--font-color);
+}
+.header {
+    color:black
+}
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: red;
+    text-decoration: none;
+}
+.logo2 {
+    color:#000000;
+}
+.link {
+    font-family: Roboto;
+    color: var(--font-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-decoration: none;
+}
+.contact {
+    font-family: Roboto;
+    color: var(--font-color-secondary);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-decoration: none;
+}
+.link:focus,
+.link:hover {
+    color: var(--highlighted-element)
+}
+.contact:focus,
+.contact:hover {
+    color: var(--highlighted-element);
 }
