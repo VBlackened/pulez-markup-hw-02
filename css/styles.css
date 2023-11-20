@@ -81,7 +81,6 @@ body {
 .cipsun p {
     color:var(--font-color-secondary);
     font-size: 14px;
-    font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
@@ -113,7 +112,6 @@ body {
 }
 .index-team p {
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: center;
@@ -148,4 +146,18 @@ background-color: #2F303A;
   cursor: pointer;
   background-color: var(--highlighted-element);
   color: var(--for-darker-bg);
+}
+.portfolio-masterpieces h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+.portfolio-masterpieces p {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--font-color-secondary);
 }
